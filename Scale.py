@@ -167,7 +167,5 @@ def main():
     chords(args.note,args.type,flat=args.flat,notes_number=args.notes)
 
 
-chords("G","min",flat=False,notes_number=4)
 if __name__ == "__main__":
-    #main()
-    pass
+    main()
